@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+     <item android:id="@+id/m_call"
+         android:title="Gọi điện"
+         app:showAsAction="always"
+         android:icon="@android:drawable/stat_sys_speakerphone"/>
+    <item android:id="@+id/m_radio"
+        android:title="Radio"
+        app:showAsAction="always"
+        android:icon="@android:drawable/btn_radio"/>
+    <item android:id="@+id/m_edit"
+        android:icon="@android:drawable/edit_text"
+        android:title="Sửa"
+        app:showAsAction="always"/>
+</menu>
